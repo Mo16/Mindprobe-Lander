@@ -92,10 +92,10 @@ export const features3 = [
   {
     id: 1,
     imgSrc: "/assets/images/template/feature-01.svg",
-    altText: "AI Survey Generation",
+    altText: "Accelerate Growth and Remove the Guesswork",
     step: "01.",
-    title: "AI Survey Generation",
-    description: `Smart Surveys, Smarter Insights. Automatically generate targeted questions using AI to ensure high-quality responses and relevant data.`,
+    title: "Accelerate Growth and Remove the Guesswork",
+    description: `Leverage AI to pinpoint exactly what your customers want and need.`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",

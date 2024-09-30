@@ -18,12 +18,10 @@ export default function Features() {
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
+                Who we benefit
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+              Empowering founders, product teams, marketers, and agencies with AI-driven insights to accelerate growth and precision.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -38,14 +36,14 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Audit Trial</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Founders</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Product People</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
@@ -53,7 +51,7 @@ export default function Features() {
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">
-                      Control your Apps
+                    Marketers
                     </a>
                   </li>
                   <li
@@ -61,7 +59,7 @@ export default function Features() {
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Approvals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Consultants & Agencies</a>
                   </li>
                 </ul>
               </div>
@@ -91,16 +89,13 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Share tools quickly and confidently in
-                                    minutes
-                                  </h3>
+                                  Accelerate Growth and Remove the Guesswork
+
+</h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    This powerfull tool eliminates the need to
-                                    leave Salesforce to get things done as I can
-                                    create a custom proposal with dynamic
-                                    pricing tables. You can also customize your
-                                    own dynamic versions.
-                                  </p>
+                                  Leverage AI to pinpoint exactly what your customers want and need.
+
+</p>
                                  <Link
                                     href="/page-features"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
@@ -138,12 +133,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Connect every part of your entire business
+                                    AI Data Analysis
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Keep data consistent, with native CRM
-                                    integrations that streamline your entire
-                                    Tool workflow.
+                                  Insightful Analytics, Instantly. Utilise AI to turn survey responses into actionable insights with advanced data analysis tools
                                   </p>
                                   <a
                                     href="#"
@@ -182,14 +175,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Maintain compliance and control your apps
+                                    Integration
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Improve security and trust with built-in
-                                    legally binding e-Signatures. Create
-                                    pre-approved templates, content blocks and
-                                    lock all legal information to prevent costly
-                                    mistakes.
+                                  Seamless System Sync. Easily integrate with your existing CRM, marketing, and communication platforms for streamlined data workflows.
                                   </p>
                                 <Link
                                     href="/page-features"
@@ -228,13 +217,52 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Review quickly and confidently
+                                  Multi-lingual
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Get real-time access to approvals, comments
-                                    and version tracking. Smart features like
-                                    variables and conditional logic help you
-                                    eliminate Tool errors.
+                                  Global Reach, Local Feel. Engage global audiences effectively with survey support in multiple languages.
+                                  </p>
+                                  <Link
+                                    href="/page-features"
+                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
+                                  >
+                                    <span>Let's find out</span>
+                                    <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {activeTab == 5 && (
+                  <div className="uc-active">
+                    <div className="feature-item panel">
+                      <div className="row child-cols col-match justify-between g-4">
+                        <div className="col-12 sm:col-6">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                            <Image
+                              className="media-cover image"
+                              alt="Review quickly and confidently"
+                              src="/assets/images/template/feature-image-04.jpg"
+                              width="1200"
+                              height="1200"
+                            />
+                          </figure>
+                        </div>
+                        <div className="col-12 sm:col-6">
+                          <div className="panel">
+                            <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+                              <div>
+                                <div className="panel vstack gap-2">
+                                  <h3 className="h4 sm:h3 lg:h2 m-0">
+                                  Multi-lingual
+                                  </h3>
+                                  <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
+                                  Global Reach, Local Feel. Engage global audiences effectively with survey support in multiple languages.
                                   </p>
                                   <Link
                                     href="/page-features"

@@ -1,7 +1,7 @@
 import Header2 from "@/components/headers/Header2";
 import Pricing from "@/components/common/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
-import Features from "@/components/homes/home-3/Features";
+import Features from "@/components/homes/home-1/Features";
 import Hero from "@/components/homes/home-3/Hero";
 import KeyFeatures from "@/components/homes/home-3/KeyFeatures";
 import React from "react";
@@ -25,6 +25,7 @@ export default function HomePage3() {
           <Hero />
           <Brands2 />
           <Features />
+          
           <KeyFeatures />
           <Pricing />
           <Testimonials />
