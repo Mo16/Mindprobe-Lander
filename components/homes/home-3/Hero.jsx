@@ -169,31 +169,32 @@ export default function Hero() {
                         >
                             <h1  className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
                             
-                                Discover What Drives{" "}
+                            Discover What Drives  
                                 <br className="d-none lg:d-block" />
-                                Your Customers in Seconds
+                                Your Customers Instantly
                             </h1>
                             <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                                Instantly translate user feedback into
-                                actionable insights with MindProbe—
+                            Super-fast market research that transforms feedback into actionable insights
                                 <br className="d-none sm:d-block" />
-                                Your AI-powered pathway to growth.
+                                tailored for DTC brands and Market Research
                             </p>
                             <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
                                 <Link
                                     href={`/page-pricing`}
                                     className="btn btn-md lg:btn-lg btn-primary text-white hover:text-white"
                                 >
-                                    Get Exclusive Early Access & Discounts!
+                                    Get Early Access + Discounts
                                 </Link>
-                                {/* <a
+                                
+                                <a
                                     onClick={openContactModal}
-                                    className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                                    className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 "
                                     data-uc-toggle=""
                                 >
-                                    Request a demo
-                                </a> */}
+                                    Learn more
+                                </a>
                             </div>
+                            
                             {/* <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">
                                 No credit card required.
                             </p> */}

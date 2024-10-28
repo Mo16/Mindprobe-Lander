@@ -26,7 +26,7 @@ export default function Elements() {
                 loop={true}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 7000,
+                  delay: 0,
                   disableOnInteraction: true,
                   reverseDirection: true,
                 }}
@@ -71,7 +71,7 @@ export default function Elements() {
                 // loop={true}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 7000,
+                  delay: 0,
                   disableOnInteraction: true,
                   // reverseDirection: true,
                   // waitForTransition: false,
@@ -115,7 +115,7 @@ export default function Elements() {
                 loop={true}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 7000,
+                  delay: 0,
                   disableOnInteraction: true,
                   reverseDirection: true,
                 }}

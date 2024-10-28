@@ -95,7 +95,7 @@ export const features3 = [
     altText: "Accelerate Growth and Remove the Guesswork",
     step: "01.",
     title: "Accelerate Growth and Remove the Guesswork",
-    description: `Leverage AI to pinpoint exactly what your customers want and need.`,
+    description: `Average time to create an end-to-end survey is 2 minutes`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",
