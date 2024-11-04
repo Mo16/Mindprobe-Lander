@@ -167,141 +167,154 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "AI Survey Generation",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Smart Surveys, Smarter Insights. Automatically generate targeted questions tailored to your audience, with advanced logic options to ensure high data integrity.",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Multiple Survey Types",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Make forms worth filling. Create engaging surveys by picking between our different survey formats and themes - easily integrate them into your site and other channels.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Automated Data Analytics",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Insightful Analytics, Instantly. Transform raw responses into insights with AI-driven data analysis, helping you understand sentiment, trends, and patterns at a glance.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Real-Time Dashboards",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Data at Your Fingertips. Dynamic, real-time dashboards designed by data professionals to provide actionable insights at a glance.",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Forms",
+    title: "Integrations",
     description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
+      "Unified Insights. Sync with your existing tech stack, from CRMs to data warehouses, to keep all customer data in one place.",
   },
   {
     icon: "unicon-currency",
-    title: "Payments",
+    title: "Multi-Language Support",
     description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "Global Reach, Local Feel. Engage global audiences in their preferred language to collect feedback that feels local and personalised.",
+  },
+  {
+    icon: "unicon-user-check",
+    title: "Rockstar Researchers",
+    description:
+      "Leverage our consultants to help you every step of the way. From survey design to designing the analytics dashboard.",
+  },
+  {
+    icon: "unicon-globe",
+    title: "Connect to an Audience (coming soon)",
+    description:
+      "Probe The Minds of Millions. Tap into global insights and understand diverse opinions effortlessly, across 49 countries and 100+ million consumers.",
   },
 ];
 
 export const featureItems = [
   {
-    imageSrc: "/assets/images/template/home-four-feature-01.png",
-    altText: "Ensuring timely delivery and maximum efficiency",
-    title: "Ensuring timely delivery and maximum efficiency",
+    imageSrc: "/assets/images/template/survey-step-1.png",
+    altText: "Create Surveys Effortlessly",
+    title: "Step 1: Create Surveys Effortlessly",
     description:
-      "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
-    linkText: "Let's find out",
-    icon: "unicon-cloud-download",
+      "Just enter your prompt, and let our AI build a tailored survey for your goals.",
+    linkText: "Start Creating",
+    icon: "unicon-survey-creation",
     reverseOrder: false,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-02.png",
-    altText: "No more digging endless reports and spreadsheets",
-    title: "No more digging endless reports and spreadsheets",
+    imageSrc: "/assets/images/template/survey-step-2.png",
+    altText: "Customise and Launch",
+    title: "Step 2: Customise and Launch",
     description:
-      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-    linkText: "See all spreadsheets",
-    icon: "unicon-course",
+      "Choose from multiple formats and personalise your survey to suit your brand and audience.",
+    linkText: "Customise Now",
+    icon: "unicon-customisation",
     reverseOrder: true,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-03.png",
-    altText: "Share files, and communicate with your team in real-time",
-    title: "Share files, and communicate with your team in real-time",
+    imageSrc: "/assets/images/template/survey-step-3.png",
+    altText: "Distribute Across Channels",
+    title: "Step 3: Distribute Across Channels",
     description:
-      "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-    linkText: "See apps & integrations",
-    icon: "unicon-volume-block-storage",
+      "Share your survey via email, social media, or embed it in your app to reach your audience where they are. Or alternatively, you can reach our global audience panel.",
+    linkText: "Share & Distribute",
+    icon: "unicon-distribution",
     reverseOrder: false,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-04.png",
-    altText: "Collaboration is made seamless with Lexend",
-    title: "Collaboration is made seamless with Lexend",
+    imageSrc: "/assets/images/template/survey-step-4.png",
+    altText: "Analyse with Real-Time Dashboards",
+    title: "Step 4: Analyse with Real-Time Dashboards",
     description:
-      "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
-    linkText: "Let's find out",
-    icon: "unicon-model",
+      "Access ready-made insights instantly on your personalised dashboard, with dynamic updates as responses come in.",
+    linkText: "View Insights",
+    icon: "unicon-dashboard",
     reverseOrder: true,
+  },
+  {
+    imageSrc: "/assets/images/template/survey-step-5.png",
+    altText: "Share and Act on Insights",
+    title: "Step 5: Share and Act on Insights",
+    description:
+      "Export dashboards, generate report deliverables, or share directly with your team to make data-driven decisions seamlessly.",
+    linkText: "Export & Share",
+    icon: "unicon-insights",
+    reverseOrder: false,
   },
 ];
 
 export const featureItems2 = [
   {
     order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/zap.svg",
+    iconSrc: "/assets/images/common/icons/benchmark.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Competitor Benchmarking",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "See how you match up against your market competitors.",
   },
   {
     order: "order-0",
-    iconSrc: "/assets/images/common/icons/database.svg",
+    iconSrc: "/assets/images/common/icons/brand-tracking.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Brand Tracking",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Measure your brand’s awareness, sentiment, and loyalty over time.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    iconSrc: "/assets/images/common/icons/roi-analysis.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "Marketing ROI Analysis",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Track campaign performance and understand ROI to optimize your marketing investments.",
   },
   {
     order: "order-1 lg:order-0",
-    iconSrc: "/assets/images/common/icons/target.svg",
+    iconSrc: "/assets/images/common/icons/product-testing.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "Product Testing",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Test and refine new products with customer feedback before launch.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
   {
     order: "order-3 lg:order-0",
-    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    iconSrc: "/assets/images/common/icons/market-sizing.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "Market Sizing",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-  },
-  {
-    order: "order-2 lg:order-0",
-    iconSrc: "/assets/images/common/icons/settings.svg",
-    alt: "feature-icon",
-    title: "Third-Party Management",
-    description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-    bgClass:
-      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+      "Assess the potential market size to inform business decisions and strategy.",
   },
 ];
+
 
 export const features5 = [
   {

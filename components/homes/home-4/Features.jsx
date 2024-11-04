@@ -19,7 +19,8 @@ export default function Features() {
                 Main features
               </span>
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                A CRM tools help you keep track of leads
+              End-To-End Survey Production In Seconds
+
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                 Join the thousands of satisfied users and take your business to

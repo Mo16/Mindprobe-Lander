@@ -19,12 +19,10 @@ export default function Features() {
                 Features
               </span>
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Recognized by the experts
+              Coming Soon: Next-Level Capabilities
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+              Move from “asking” to “action”
               </p>
             </div>
             <div
